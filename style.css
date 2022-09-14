@@ -1,0 +1,261 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Nanum Gothic', sans-serif;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 200;
+    
+
+}
+.main  {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/puppies/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 730px; 
+}
+
+
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: brown;
+}
+
+.bold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    margin-top: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-weight: 800;
+}
+
+.text{font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 85px;
+
+}
+/*.container-fluid{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 85px;
+}*/
+
+.col-sm{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+    font-size: small
+
+}
+
+.txt{
+    margin-top: 40px;
+}
+
+.img-fluid{
+    margin-top: 150px;
+   
+}
+
+.txt_yr{
+    position: absolute;
+    top: 1400px;
+    left: 65%;
+    font-size: larger;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+
+.pic_main{
+    display: grid;
+    justify-content: center;
+}
+
+.blck_about{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.ftr{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+
+
+/*animation*/
+
+/*p {
+    
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-delay: 5s;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }*/
+
+ 
+
+
+
+
+  /*///////////////////////////////////comissions//////////////////////////////*/
+
+
+
+  /*footer*/
+
+
+  .ftr_comissions{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+
+  }
+
+  .cmssns{
+    margin-top: 50px;
+    width: auto;
+    text-align: center;
+  }
+
+
+
+  /*button*/
+
+  .button{
+    display: flex;
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 2px;
+    justify-content: center;
+  }
+
+
+
+/*////////////////////////////////reviews//////////////////////////*/
+
+h2{
+    font-family:'Satisfy', cursive; 
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.rw_mrgn{
+    margin: 5px;
+  }
+
+.reviews{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+  /*carousel*/
+
+  /*.carousel{
+    position: relative;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+  }*/
+
+  .photos{
+    position: relative;
+  }
+
+  .photos img{
+    position: absolute;
+    opacity: 0;
+  }
+
+  .photos img.visible{
+    opacity: 1;
+  }
+
+
+  /*///////////////////////////catalogue/////////////////////////*/
+
+  .ftr_catalogue{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1750px;
+    width: 100%;
+
+  }
+
+  /*////////////////////////////contact///////////////////////*/
+
+  .btn_contact{
+    display: block;
+    justify-content: center;
+  }
+
+
+  /*footer*/
+  .ftr_contact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+
+  }
+
+  
+/*////////////////////////catalogue///////////////////////////*/
+
+.catalogue{
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-around;
+  
+  
+}
+
+.carousel {
+  display: block;
+  justify-content: center;
+  margin-top: 80px;
+}
